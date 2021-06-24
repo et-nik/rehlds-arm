@@ -30,12 +30,6 @@
 
 #include "interface.h"
 
-#ifdef _WIN32
-	#define ENGINE_LIB "swds.dll"
-#else
-	#define ENGINE_LIB "engine_aarch64.so"
-#endif // _WIN32
-
 class IDedicatedServerAPI : public IBaseInterface
 {
 public:

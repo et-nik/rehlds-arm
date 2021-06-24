@@ -107,6 +107,7 @@ target_compile_definitions(hlds PRIVATE
 	_strnicmp=strncasecmp
 	_strdup=strdup
 	_vsnprintf=vsnprintf
+	ENGINE_LIB="${ENGINE_NAME}.so"
 )
 
 target_sources(hlds PRIVATE
